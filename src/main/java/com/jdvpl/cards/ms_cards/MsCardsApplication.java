@@ -12,7 +12,7 @@ import io.swagger.v3.oas.annotations.info.License;
 
 @SpringBootApplication
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
-@OpenAPIDefinition(info = @Info(title = "Cards microservice REST API Documentation", description = "EazyBank Cards microservice REST API Documentation", version = "v1", contact = @Contact(name = "Madan Reddy", email = "jdvpl@gmail.com", url = "https://portfolio-jdvpl.vercel.app/"), license = @License(name = "Apache 2.0", url = "https://portfolio-jdvpl.vercel.app/")), externalDocs = @ExternalDocumentation(description = "EazyBank Cards microservice REST API Documentation", url = "https://www.eazybytes.com/swagger-ui.html"))
+@OpenAPIDefinition(info = @Info(title = "Cards microservice REST API Documentation", description = "EazyBank Cards microservice REST API Documentation", version = "v1", contact = @Contact(name = "Juan Daniel", email = "jdvpl@gmail.com", url = "https://portfolio-jdvpl.vercel.app/"), license = @License(name = "Apache 2.0", url = "https://portfolio-jdvpl.vercel.app/")), externalDocs = @ExternalDocumentation(description = "EazyBank Cards microservice REST API Documentation", url = "https://www.eazybytes.com/swagger-ui.html"))
 public class MsCardsApplication {
 
 	public static void main(String[] args) {
